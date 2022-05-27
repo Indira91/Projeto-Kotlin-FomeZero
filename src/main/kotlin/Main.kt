@@ -1,3 +1,4 @@
+import jdk.nashorn.internal.objects.Global.println
 import projetokotlin.User
 //Por falta de banco de dados o usuario já está cadastrado com e-mail raian.guilherme@gmailcom
 // e senha 1234
@@ -69,5 +70,9 @@ fun main() {
         }
     } while (aux != 6)
 
+}
+
+fun readln(): Any {
+    TODO("Not yet implemented")
 }
 
